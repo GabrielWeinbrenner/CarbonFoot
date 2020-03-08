@@ -1,57 +1,23 @@
 {
   "carbon": [
     {
-      "name": "",
-      "transportation": "",
-      "beef": "",
-      "mealprep": "",
-      "product": "",
-      "id": 1
-    },
-    {
-      "name": "Gabriel Weinbrenner",
-      "transportation": "bus",
-      "beef": "2",
-      "mealprep": "out",
-      "product": "instore",
-      "score": "NaN",
-      "id": 2
-    },
-    {
-      "name": "Gabriel Weinbrenner",
-      "transportation": "bus",
-      "beef": "2",
-      "mealprep": "out",
-      "product": "instore",
-      "score": "NaN",
-      "id": 3
-    },
-    {
-      "name": "EagleHacks",
-      "transportation": "bus",
-      "beef": "2",
-      "mealprep": "out",
-      "product": "online",
-      "score": "NaN",
-      "id": 4
-    },
-    {
-      "name": "EagleHacks",
-      "transportation": "bus",
-      "beef": "2",
-      "mealprep": "out",
-      "product": "online",
-      "score": "NaN",
-      "id": 5
-    },
-    {
-      "name": "asdf",
+      "name": "Jerry",
       "transportation": "bus",
       "beef": "6",
-      "mealprep": "out",
-      "product": "online",
-      "score": "5216",
-      "id": 6
+      "mealprep": "home",
+      "product": "instore",
+      "score": 6666,
+      "advice": [
+        "Maybe start walking/biking to your workspace ",
+        "To reduce carbon emmissions, start limiting your meat consumption",
+        "Start thrifting your items to reduce CO2 emmissions"
+      ],
+      "companies": [
+        "Bamboocycles: Sustainable option to bikes",
+        "Ayrshirefarms: Utilization of sustainable farming options ",
+        "thredUp: To inspire a new generation of consumers to think secondhand first"
+      ],
+      "id": 1
     }
   ]
 }
