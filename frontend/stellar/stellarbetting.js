@@ -1,4 +1,5 @@
-// Parameters: Destination (account ID), Asset (only can be lumens (XLM)), Amount of lumens (integer)
+// Parameters: Source account (your ID), Destination (their account ID), Asset (only can be lumens (XLM)), Amount of lumens (integer)
+// Can use testnet server for demos
 
 const StellarSdk = require('stellar-sdk');
 const sourceSecretKey = 'SCZANGBA5YHTNYVVV4C3U252E2B6P6F5T3U6MM63WBSBZATAQI3EBTQ4';
