@@ -18,6 +18,25 @@
         "thredUp: To inspire a new generation of consumers to think secondhand first"
       ],
       "id": 1
+    },
+    {
+      "name": "David",
+      "transportation": "car",
+      "beef": "6",
+      "mealprep": "home",
+      "product": "instore",
+      "score": 9450,
+      "advice": [
+        "Limit your car usage and use public transportation",
+        "To reduce carbon emmissions, start limiting your meat consumption",
+        "Start thrifting your items to reduce CO2 emmissions"
+      ],
+      "companies": [
+        "Tesla: Goal is to accelerate the world's transition to sustainable energy with electric cars",
+        "Ayrshirefarms: Utilization of sustainable farming options ",
+        "thredUp: To inspire a new generation of consumers to think secondhand first"
+      ],
+      "id": 2
     }
   ]
 }
