@@ -5,3 +5,4 @@ https://devpost.com/software/carbon-footprint-tiqak9
 
 Run:
 .../api -> npm test (runs json-server -p 3001 -w db.json)
+-> open index.html 
