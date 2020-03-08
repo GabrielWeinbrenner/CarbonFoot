@@ -10,19 +10,48 @@
     },
     {
       "name": "Gabriel Weinbrenner",
-      "transportation": "walk",
-      "beef": "once",
-      "mealprep": "rest",
-      "product": "two_five",
+      "transportation": "bus",
+      "beef": "2",
+      "mealprep": "out",
+      "product": "instore",
+      "score": "NaN",
       "id": 2
     },
     {
       "name": "Gabriel Weinbrenner",
-      "transportation": "walk",
-      "beef": "once",
-      "mealprep": "rest",
-      "product": "two_five",
+      "transportation": "bus",
+      "beef": "2",
+      "mealprep": "out",
+      "product": "instore",
+      "score": "NaN",
       "id": 3
+    },
+    {
+      "name": "EagleHacks",
+      "transportation": "bus",
+      "beef": "2",
+      "mealprep": "out",
+      "product": "online",
+      "score": "NaN",
+      "id": 4
+    },
+    {
+      "name": "EagleHacks",
+      "transportation": "bus",
+      "beef": "2",
+      "mealprep": "out",
+      "product": "online",
+      "score": "NaN",
+      "id": 5
+    },
+    {
+      "name": "asdf",
+      "transportation": "bus",
+      "beef": "6",
+      "mealprep": "out",
+      "product": "online",
+      "score": "5216",
+      "id": 6
     }
   ]
 }
