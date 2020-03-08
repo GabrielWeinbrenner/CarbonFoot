@@ -12,6 +12,8 @@
 // Account #2 - GAECLRZZHNCTVIIXHVKQLGXITMFZWAYRCSXV3JKNINCWVFHXP4DKZMRV
 // SCINDXGLYIA7WHZEUT5O4YUKH67YUQUZADJPPYB52556BO2A7P25VKSQ
 
+// Monetization - We would take a small percentage of the money used for challenges 
+
 var StellarSdk = require('stellar-sdk');
 var server = new StellarSdk.Server('https://horizon-testnet.stellar.org');
 var sourceKeys = StellarSdk.Keypair.fromSecret('SCZANGBA5YHTNYVVV4C3U252E2B6P6F5T3U6MM63WBSBZATAQI3EBTQ4');
