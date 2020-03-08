@@ -1,5 +1,7 @@
-// Parameters: Source account (your ID), Destination (their account ID), Asset (only can be lumens (XLM)), Amount of lumens (integer)
+// Parameters: Source account (your ID is account #1), Destination (their account ID is account #2), Asset (only can be lumens (XLM)), Amount of lumens (integer)
 // Can use testnet server for demos
+
+// ui - button, enter the amount to send.
 
 // Account #1 - GA2JSEGSJAREL7RYEZ4CU4Y4QB24CW7QFXBOWFLF5NMGJLJNY2IJ2Y6V
 // SCHB52IVRHQT5YIVL6GTI5ZXKQG7HIK4SOQIQUCR6FKRRALNS5ZQQVGH
