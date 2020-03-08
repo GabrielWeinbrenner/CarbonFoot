@@ -37,6 +37,23 @@
         "thredUp: To inspire a new generation of consumers to think secondhand first"
       ],
       "id": 2
+    },
+    {
+      "name": "Ryan",
+      "transportation": "electric_car",
+      "beef": "2",
+      "mealprep": "out",
+      "product": "instore",
+      "score": 4566,
+      "advice": [
+        "Start eating at home to reduce carbon emmssions",
+        "Start thrifting your items to reduce CO2 emmissions"
+      ],
+      "companies": [
+        "Mixt Greens: Eco Gourmet restaurant",
+        "thredUp: To inspire a new generation of consumers to think secondhand first"
+      ],
+      "id": 3
     }
   ]
 }
