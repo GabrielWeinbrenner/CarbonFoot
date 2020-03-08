@@ -1,4 +1,4 @@
-// Parameters: Source account (your ID), vDestination (their account ID), Asset (only can be lumens (XLM)), Amount of lumens (integer)
+// Parameters: Source account (your ID), Destination (their account ID), Asset (only can be lumens (XLM)), Amount of lumens (integer)
 // Can use testnet server for demos
 
 // Account #1 - GA2JSEGSJAREL7RYEZ4CU4Y4QB24CW7QFXBOWFLF5NMGJLJNY2IJ2Y6V
