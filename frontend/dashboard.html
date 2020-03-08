@@ -10,20 +10,15 @@
 	<body class="is-preload">
 
 		<div id="mySidebar" class="sidebar">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-  <tr>
-		<th>Name:</th>
-		<th>Score:</th>
-		<th>Challenge</th>
-	</tr><br>
-	<tr>
-		<td></td>
-		<td></td><br>
-		<td><button type="submit" style="background-color:transparent; border:none; height: 45px; width:35px;">
-			<img src="images/challenge.png" style="position:center; height:30px;"/>
-		</button></td>
-	</tr>
-</div>
+  		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+		<table id="leaders">
+			<tr>
+				<th>Name:</th>
+				<th>Score:</th>
+				<th>Challenge</th>
+			</tr>
+		</table>
+		</div>
 
 <div id="main">
   <button class="openbtn" onclick="openNav()">See Leaderboard
@@ -42,7 +37,7 @@ function closeNav() {
 }
 </script>
 
-			<section id="score" class="main special">
+			<section id="one" class="main special">
 				<div class="container" style="height:550px;">
 					<span class="image fit primary"><img src="images/bg2.jpg" alt="" /></span>
 					<div class="content">
