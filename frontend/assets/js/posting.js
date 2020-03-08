@@ -104,15 +104,19 @@ $("#submit").click(function(){
     var product = $('input:radio[name=shopping]:checked').val();
     var score = getTotal(transportation, mealprep, beef, product);
     var advice = generateAdvice(transportation,mealprep,beef,product);
-    $.post("http://localhost:3001/carbon", 
-    {
-        "name": $("#name").val(),
-        "transportation": transportation,
-        "beef": beef,
-        "mealprep": mealprep,
-        "product": product,
-        "score": score,
-        "advice": advice
+    $.ajax({
+        type: 'POST',
+        url: "http://localhost:3001/carbon",
+        data: JSON.stringify({
+            "name": $("#name").val(),
+            "transportation": transportation,
+            "beef": beef,
+            "mealprep": mealprep,
+            "product": product,
+            "score": score,
+            "advice": advice
+        }),
+        contentType: "application/json"
     }).done(function(){
         window.location.href = "dashboard.html";
     })
