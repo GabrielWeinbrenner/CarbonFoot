@@ -1,6 +1,12 @@
 // Parameters: Source account (your ID), vDestination (their account ID), Asset (only can be lumens (XLM)), Amount of lumens (integer)
 // Can use testnet server for demos
 
+// Account #1 - GA2JSEGSJAREL7RYEZ4CU4Y4QB24CW7QFXBOWFLF5NMGJLJNY2IJ2Y6V
+// SCHB52IVRHQT5YIVL6GTI5ZXKQG7HIK4SOQIQUCR6FKRRALNS5ZQQVGH
+
+// Account #2 - GAECLRZZHNCTVIIXHVKQLGXITMFZWAYRCSXV3JKNINCWVFHXP4DKZMRV
+// SCINDXGLYIA7WHZEUT5O4YUKH67YUQUZADJPPYB52556BO2A7P25VKSQ
+
 var StellarSdk = require('stellar-sdk');
 var server = new StellarSdk.Server('https://horizon-testnet.stellar.org');
 var sourceKeys = StellarSdk.Keypair.fromSecret('SCZANGBA5YHTNYVVV4C3U252E2B6P6F5T3U6MM63WBSBZATAQI3EBTQ4');
@@ -12,6 +18,7 @@ var lastToken = loadLastPagingToken();
 
 const pair = StellarSdk.Keypair.random();
 const account = await server.loadAccount(pair.publicKey());
+
 
 
 pair.secret();
