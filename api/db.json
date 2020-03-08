@@ -2,19 +2,19 @@
   "carbon": [
     {
       "name": "",
-      "transportation": "$('transport').val()",
-      "beef": "never",
-      "mealprep": "$('#mealprep').val()",
-      "product": "never",
-      "id": 2
+      "transportation": "",
+      "beef": "",
+      "mealprep": "",
+      "product": "",
+      "id": 1
     },
     {
       "name": "Gabriel Weinbrenner",
-      "transportation": "$('transport').val()",
-      "beef": "two_five",
-      "mealprep": "$('#mealprep').val()",
+      "transportation": "walk",
+      "beef": "once",
+      "mealprep": "rest",
       "product": "two_five",
-      "id": 3
+      "id": 2
     }
   ]
 }
