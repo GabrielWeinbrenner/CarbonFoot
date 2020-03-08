@@ -1,4 +1,4 @@
-// Parameters: Destination (account ID), Asset (default USD), Amount (integer)
+// Parameters: Destination (account ID), Asset (only can be lumens (XLM)), Amount (integer)
 
 const StellarSdk = require('stellar-sdk');
 const sourceSecretKey = 'SCZANGBA5YHTNYVVV4C3U252E2B6P6F5T3U6MM63WBSBZATAQI3EBTQ4';
