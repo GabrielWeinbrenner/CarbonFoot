@@ -2,39 +2,22 @@
   "carbon": [
     {
       "name": "Jerry",
-      "transportation": "car",
-      "beef": "2",
+      "transportation": "bus",
+      "beef": "6",
       "mealprep": "home",
       "product": "instore",
-      "score": "7000",
+      "score": 6666,
       "advice": [
-        "Limit your car usage and use public transportation",
+        "Maybe start walking/biking to your workspace ",
+        "To reduce carbon emmissions, start limiting your meat consumption",
         "Start thrifting your items to reduce CO2 emmissions"
       ],
-      "id": 1
-    },
-    {
-      "{\"name\":\"Kevin\",\"transportation\":\"electric_car\",\"beef\":\"1\",\"mealprep\":\"out\",\"product\":\"online\",\"score\":5066,\"advice\":[\"Start eating at home to reduce carbon emmssions\",\"Start going to stores physically or shop at local stores\"]}": "",
-      "id": 2
-    },
-    {
-      "name": "Kevin",
-      "beef": "0",
-      "score": 2216,
-      "advice": [],
-      "id": 3
-    },
-    {
-      "name": "Jem",
-      "transportation": "car",
-      "beef": "2",
-      "mealprep": "home",
-      "product": "thrift",
-      "score": 6500,
-      "advice": [
-        "Limit your car usage and use public transportation"
+      "companies": [
+        "Bamboocycles: Sustainable option to bikes",
+        "Ayrshirefarms: Utilization of sustainable farming options ",
+        "thredUp: To inspire a new generation of consumers to think secondhand first"
       ],
-      "id": 4
+      "id": 1
     }
   ]
 }

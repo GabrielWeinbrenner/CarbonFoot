@@ -97,6 +97,38 @@ function generateAdvice(transType, diet, meatAmount,typeShopping){
     return advice;
 }
 
+function generateCompanies(transType, diet, meatAmount,typeShopping){
+    var companies = [];
+    if(transType == "car"){
+        companies.push("Tesla: Goal is to accelerate the world's transition to sustainable energy with electric cars");
+    }
+    if(transType == "bus" || transType == "train"){
+        companies.push("Bamboocycles: Sustainable option to bikes");
+    }
+    if(diet == "out"){
+        companies.push("Mixt Greens: Eco Gourmet restaurant")
+    }
+    if(meatAmount > 5){
+        companies.push("Ayrshirefarms: Utilization of sustainable farming options ")
+    }
+    if(typeShopping == "online"){
+        companies.push("Pact: Making the most ethical fashion products on the market")
+    }
+    if(typeShopping == "instore"){
+        companies.push("thredUp: To inspire a new generation of consumers to think secondhand first")
+    }
+    return companies;
+}
+/*
+Tesla - electric car company
+Wholefoods - food restaurant
+Pact - clothing company
+thredUp - upcyclying clothing company 
+Chipotle - sustainable restuarant 
+Mixt Greens - eco gourmet
+*/ 
+
+
 $("#submit").click(function(){
     var transportation = $('input:radio[name=transport]:checked').val();
     var beef = $("#dinner1").val();
@@ -104,6 +136,7 @@ $("#submit").click(function(){
     var product = $('input:radio[name=shopping]:checked').val();
     var score = getTotal(transportation, mealprep, beef, product);
     var advice = generateAdvice(transportation,mealprep,beef,product);
+    var companies = generateCompanies(transportation,mealprep,beef,product);
     $.ajax({
         type: 'POST',
         url: "http://localhost:3001/carbon",
@@ -114,7 +147,8 @@ $("#submit").click(function(){
             "mealprep": mealprep,
             "product": product,
             "score": score,
-            "advice": advice
+            "advice": advice,
+            "companies": companies
         }),
         contentType: "application/json"
     }).done(function(){
