@@ -67,7 +67,7 @@ $("#submit").click(function(){
     var beef = $("#dinner1").val();
     var mealprep = $('input:radio[name=meals]:checked').val();
     var product = $('input:radio[name=shopping]:checked').val();
-    console.log(getTotal(transportation, mealprep, beef, product))
+    var score = getTotal(transportation, mealprep, beef, product)
     $.post("http://localhost:3001/carbon", 
     {
         "name": $("#name").val(),
@@ -75,6 +75,6 @@ $("#submit").click(function(){
         "beef": beef,
         "mealprep": mealprep,
         "product": product,
-        "score": getTotal(transportation, mealprep, beef, product)
+        "score": score
     });
 });
