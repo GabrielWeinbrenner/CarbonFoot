@@ -1,7 +1,10 @@
 // Parameters: Source account (your ID is account #1), Destination (their account ID is account #2), Asset (only can be lumens (XLM)), Amount of lumens (integer)
 // Can use testnet server for demos
 
-// ui - button, enter the amount to send.
+// ui - button, enter the amount to send. Also displays account #1 and #2 (source and destination)
+// output:
+// Hash: f0caec25da71b5775d3e6b8e1e2f8dda78182386c88771ea0011c5a0c6964be8
+// XDR - AAAAADSZENJIIkX+OCZ4KnMcgHXBW/AtwusVZetYZK0txpCdAAAAZAAJW48AAAABAAAAAAAAAAAAAAABAAAAAQAAAAA0mRDSSCJF/jgmeCpzHIB1wVvwLcLrFWXrWGStLcaQnQAAAAEAAAAACCXHOTtFOqEXPVUFmuibC5sDERSvXaVNQ0VqlPd/BqwAAAAAAAAAAlQL5AAAAAAAAAAAAA== 
 
 // Account #1 - GA2JSEGSJAREL7RYEZ4CU4Y4QB24CW7QFXBOWFLF5NMGJLJNY2IJ2Y6V
 // SCHB52IVRHQT5YIVL6GTI5ZXKQG7HIK4SOQIQUCR6FKRRALNS5ZQQVGH
