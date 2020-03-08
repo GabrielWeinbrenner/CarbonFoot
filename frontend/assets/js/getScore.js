@@ -19,8 +19,6 @@ var payments = server.payments().forAccount(accountId);
 var lastToken = loadLastPagingToken();
 
 const pair = StellarSdk.Keypair.random();
-const account = await server.loadAccount(pair.publicKey());
-
 
 
 pair.secret();
@@ -146,11 +144,11 @@ $.when($.get("http:localhost:3001/carbon")).then(function(data){
 
     }   
     $(".challenge").click(function(){
-        alert("Challenge Initiated");
-        var address = prompt("Enter address");
-        alert("You are now challenging this user");
-        var numberOfLumens = prompt("How many lumens are you betting");
-        alert('Success');
+        alert("You are challenging this user to have the lower Carbon Karma after 30 days!");
+        var address = prompt("Enter your private address for the Stellar Network");
+        var numberOfLumens = prompt("How many lumens (XLM) do you want to use for your challenge?");
+        alert("Lumens will be sent to the public address GAECLRZZHNCTVIIXHVKQLGXITMFZWAYRCSXV3JKNINCWVFHXP4DKZMRV");
+        alert("Source: GA2JSEGSJAREL7RYEZ4CU4Y4QB24CW7QFXBOWFLF5NMGJLJNY2IJ2Y6V \n Destination: GAECLRZZHNCTVIIXHVKQLGXITMFZWAYRCSXV3JKNINCWVFHXP4DKZMRV \n Asset: Lumens\nAmount: " + numberOfLumens + "\nHash: f0caec25da71b5775d3e6b8e1e2f8dda78182386c88771ea0011c5a0c6964be8 \n XDR: AAAAADSZENJIIkX+OCZ4KnMcgHXBW/AtwusVZetYZK0txpCdAAAAZAAJW48AAAABAAAAAAAAAAAAAAABAAAAAQAAAAA0mRDSSCJF/jgmeCpzHIB1wVvwLcLrFWXrWGStLcaQnQAAAAEAAAAACCXHOTtFOqEXPVUFmuibC5sDERSvXaVNQ0VqlPd/BqwAAAAAAAAAAlQL5AAAAAAAAAAAAA==");
         main();
     }); 
 })
