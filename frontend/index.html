@@ -44,12 +44,14 @@
 							<h2>What is your main method of transportation?</h2>
 						</header>
 						<span id="transport">
-							<input type="radio" id="car" name="transport" value="car">
-							<label for="car">Private Vehicle</label><br>
-								<input type="radio" id="ride_share" name="transport" value="ride_share">
-							<label for="ride_share">Ride Share</label><br>
-							<input type="radio" id="pub_tran" name="transport" value="pub_tran">
-							<label for="pub_tran">Public Transportation</label><br>
+								<input type="radio" id="car" name="transport" value="car">
+							<label for="car">Private Non-Electric Vehicle</label><br>
+								<input type="radio" id="ride_share" name="transport" value="electric_car">
+							<label for="ride_share">Electric Vehicle</label><br>
+								<input type="radio" id="bus" name="transport" value="bus">
+							<label for="bus">Bus</label><br>
+								<input type="radio" id="train" name="transport" value="train">
+							<label for="train">Train</label><br>
 								<input type="radio" id="walk" name="transport" value="walk">
 							<label for="walk">Walking</label><br>
 						</span>
@@ -67,10 +69,10 @@
 							<h2>How many times a week do you eat beef?</h2>
 						</header>
 						<select id="dinner1">
-							<option value="never">Never</option>
-							<option value="once">1</option>
-							<option value="two_five">1-5</option>
-							<option value="five_more">5+</option>
+							<option value="0">Never</option>
+							<option value="1">1</option>
+							<option value="2">1-5</option>
+							<option value="6">5+</option>
 						</select>
 					</div>
 					<a href="#four" class="goto-next scrolly">Next</a>
@@ -89,8 +91,8 @@
 							<span id="meals">
 								<input type="radio" id="home" name="meals" value="home">
 								<label for="home">I cook most of my meals at home</label><br>
-								<input type="radio" id="restaurant" name="meals" value="restaurant">
-								<label for="rest">Most of my meals come from a restaurant</label><br>
+								<input type="radio" id="restaurant" name="meals" value="out">
+								<label for="restaurant">Most of my meals come from a restaurant</label><br>
 							</span>
 					</div>
 					<a href="#five" class="goto-next scrolly">Next</a>
@@ -103,14 +105,17 @@
 						<span class="image fit primary"><img src="images/pic05.jpg" alt="" /></span>
 						<div class="content">
 							<header class="major">
-								<h2>How maany time a week do you buy new products?</h2>
+								<h2>What type of shopping do you perfer?</h2>
 							</header>
-							<select id="new_stuff">
-								<option value="never">Never</option>
-								<option value="once">1</option>
-								<option value="two_five">1-5</option>
-								<option value="five_more">5+</option>
-							</select>
+							<span id="shopping">
+								<input type="radio" id="online" name="shopping" value="online">
+								<label for="online">Online</label><br>
+								<input type="radio" id="thrifting" name="shopping" value="thrift">
+								<label for="thrifting">Thrifting</label><br>
+								<input type="radio" id="instore" name="shopping" value="instore">
+								<label for="instore">In Person</label><br>
+
+							</span>
 						</div>
 						<a href="#" id="submit" class="goto-next scrolly">Next</a>
 					</div>
